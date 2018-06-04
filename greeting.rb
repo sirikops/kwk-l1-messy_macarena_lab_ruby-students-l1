@@ -1,5 +1,7 @@
 def greeting
-  puts "Hi Jane, I'm Siri, how's your afternoon?"
+  puts "What's your name?"
+  your_name = gets
+  puts "Hi #{your_name} I'm Siri!"
 end
 
 greeting
